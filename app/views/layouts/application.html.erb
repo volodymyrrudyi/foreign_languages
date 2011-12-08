@@ -20,15 +20,17 @@
               </div>
               <div id="menu">
                 <div id="menu_main">
-                  <%= link_to I18n.t('main_menu.index'), '#', :class => :menu_elem %>
-                  <%= link_to I18n.t('main_menu.history'), '#', :class => :menu_elem %>
-                  <%= link_to I18n.t('main_menu.teaching_methods'), '#', :class => :menu_elem %>
-                  <%= link_to I18n.t('main_menu.teachers'), '#', :class => :menu_elem %>
-                  <%= link_to I18n.t('main_menu.news'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.index'), url_for(:controller => :home, :action => :index), :class => :menu_elem %>
+                  <%# link_to I18n.t('main_menu.news'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.history'), url_for(:controller => :home, :action => :history), :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.teaching_methods'), url_for(:controller => :home, :action => :teaching_methods),
+                    :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.teachers'), url_for(:controller => :home, :action => :teachers), :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.methods'), url_for(:controller => :home, :action => :methods), :class => :menu_elem %>
                 </div>
                 <div id="menu_lang">
-                  <%= image_tag "ua.png" %>
-                  <%= image_tag "gb.png"%>
+                  <%= link_to image_tag("ua.png"), url_for(:controller => :home, :action => :select_locale, :locale => "uk")%>
+                  <%= link_to image_tag("gb.png"), url_for(:controller => :home, :action => :select_locale, :locale => "en")%>
                 </div>
               </div>
             </div>

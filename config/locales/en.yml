@@ -11,5 +11,6 @@ en:
     history: 'History of Department'
     teachers: 'Teachers'
     teaching_methods: 'Teaching methods'
+    methods: 'Methodical work'
   footer:
-    copyright: 'Copyright &copy; 2011<br/>Department of Foreign Languages'
+    copyright: 'Copyright &copy; 2011<br/>Foreign Languages Department'

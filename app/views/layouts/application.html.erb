@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ForeignLanguages</title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="super_wrapper">
+      <div id="wrapper">
+        <div id="header">
+          <div id="header_content">
+            <div id="header_main">
+              <%= raw I18n.t('header.cstu') %>
+            </div>
+            <div id="header_sub">
+              <div id="dep_title">
+                <%= I18n.t('header.department') %>
+              </div>
+              <div id="menu">
+                <div id="menu_main">
+                  <%= link_to I18n.t('main_menu.index'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.history'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.teaching_methods'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.teachers'), '#', :class => :menu_elem %>
+                  <%= link_to I18n.t('main_menu.news'), '#', :class => :menu_elem %>
+                </div>
+                <div id="menu_lang">
+                  <%= image_tag "ua.png" %>
+                  <%= image_tag "gb.png"%>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="main_container">
+          <div id="content">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer_container">
+        <%= raw I18n.t('footer.copyright') %>
+      </div>
+    </div>
+  </body>
+</html>

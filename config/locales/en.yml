@@ -1,0 +1,15 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  header:
+    cstu: 'Chernihiv State<br/> Technological University'
+    department: 'Foreign Languages Department'
+  main_menu:
+    index: 'Home'
+    news: 'News'
+    history: 'History of Department'
+    teachers: 'Teachers'
+    teaching_methods: 'Teaching methods'
+  footer:
+    copyright: 'Copyright &copy; 2011<br/>Department of Foreign Languages'

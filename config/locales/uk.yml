@@ -1,0 +1,16 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+uk:
+  header:
+    cstu: 'Чернігівський державний<br/> технологічний університет'
+    department: 'Кафедра іноземних мов'
+  main_menu:
+    index: 'Головна'
+    news: 'Новини'
+    history: 'Історія кафедри'
+    teachers: 'Викладачі'
+    teaching_methods: 'Організація навчального процесу'
+    methods: 'Науково-методична діялність'
+  footer:
+    copyright: 'Copyright &copy; 2011<br/>Кафедра іноземних мов'

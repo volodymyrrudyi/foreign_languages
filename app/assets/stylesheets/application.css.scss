@@ -41,15 +41,14 @@ body {
   box-shadow: 2px 2px 5px rgba(000,000,000,0.7);
   padding-top: 7px;
 
-  background: url(image-path("bg1.png")), rgb(169,3,41); /* Old browsers */
-  background: url(image-path("bg1.png")), -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%) ; /* FF3.6+ */
-  background: url(image-path("bg1.png")), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(100%,rgba(109,0,25,1))); /* Chrome,Safari4+ */
-  background: url(image-path("bg1.png")), -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: url(image-path("bg1.png")), -o-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Opera 11.10+ */
-  background: url(image-path("bg1.png")), -ms-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* IE10+ */
-  background: url(image-path("bg1.png")), linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-
+  background: url(image-path("bg1.png")), rgb(195,24,1); /* Old browsers */
+  background: url(image-path("bg1.png")), -moz-linear-gradient(top,  rgba(195,24,1,1) 0%, rgba(171,21,1,1) 44%, rgba(138,16,0,1) 100%); /* FF3.6+ */
+  background: url(image-path("bg1.png")), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,24,1,1)), color-stop(44%,rgba(171,21,1,1)), color-stop(100%,rgba(138,16,0,1))); /* Chrome,Safari4+ */
+  background: url(image-path("bg1.png")), -webkit-linear-gradient(top,  rgba(195,24,1,1) 0%,rgba(171,21,1,1) 44%,rgba(138,16,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: url(image-path("bg1.png")), -o-linear-gradient(top,  rgba(195,24,1,1) 0%,rgba(171,21,1,1) 44%,rgba(138,16,0,1) 100%); /* Opera 11.10+ */
+  background: url(image-path("bg1.png")), -ms-linear-gradient(top,  rgba(195,24,1,1) 0%,rgba(171,21,1,1) 44%,rgba(138,16,0,1) 100%); /* IE10+ */
+  background: url(image-path("bg1.png")), linear-gradient(top,  rgba(195,24,1,1) 0%,rgba(171,21,1,1) 44%,rgba(138,16,0,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c31801', endColorstr='#8a1000',GradientType=0 ); /* IE6-9 */
 }
 
 #header_content{
@@ -67,7 +66,7 @@ body {
   font-size: 24px;
   padding: 0 0 5px 150px;
   margin: 0 35px;
-  color: #E2D098;
+  color: #F7EFB9;
   text-shadow:
   1px 1px 0.05em #000;
 }
@@ -125,13 +124,13 @@ body {
   text-decoration: none;
   color: #700;
   padding: 8px 10px;
+  outline: none;
 }
 
 #menu_main a:hover{
-  color: #E2D098;
+  color: #F7EFB9;
   background: url(image-path("bg1.png")) #700;
-  text-shadow:
-  1px 1px 0.05em #000;
+  text-shadow: none;
 }
 
 #menu_main{
